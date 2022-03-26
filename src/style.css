@@ -1,0 +1,141 @@
+.card {
+    padding: 20px;
+    cursor: pointer;
+  }
+  .card > .dots {
+    width: 10px;
+    height: 10px;
+    color: gray;
+  }
+  .card > .card__image > img {
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
+  }
+  .card__heart {
+    float: right;
+    color: lightgray;
+  }
+  .card__details > p {
+    padding: 0;
+    margin: 0;
+  }
+  .card__details > .title {
+    font-weight: 600;
+    font-size: 17px;
+    color: rgb(165, 165, 165);
+  }
+  .card__details > p {
+    font-size: 14px;
+  }
+  .card__details > .span1 {
+    font-weight: bold;
+  }
+  .card__details > .span2 {
+    color: gray;
+    padding-left: 7px;
+    text-decoration: line-through;
+  }
+  .card__details > .span3 {
+    padding-left: 7px;
+    color: rgb(2, 98, 2);
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .productDet {
+    position: relative;
+    transition: 0.5s;
+    height: 70px;
+  }
+  .productDet > .card__size {
+    position: absolute;
+    opacity: 0;
+  }
+  .card:hover .productDet {
+    transition: 0.5s;
+    transform: translateY(-20%);
+  }
+   .card__size {
+    opacity: 1;
+    transition: 1.75s;
+  }
+  .orders__header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 94, 35);
+    color: aliceblue;
+    align-items: center;
+    height: 15vh;
+  }
+  .orders__body {
+    background-color: rgb(6, 195, 195);
+    width: 100vw;
+    height: 85vh;
+  }
+  .orders__body > h1 {
+    margin: 0;
+    color: aliceblue !important;
+    font-size: 100px;
+    display: flex;
+    font-style: italic;
+    justify-content: center;
+    padding-top: 170px;
+  }
+  .orders__header > a.orders--active {
+    border-bottom: 5px solid aliceblue;
+    padding: 6px;
+    color: rgb(35, 252, 7);
+  }
+  .moret__in,
+.logint__in {
+  width: 13.5rem;
+  padding: 7px 0;
+  display: flex;
+  height: 35px;
+  align-items: center;
+  cursor: pointer;
+}
+.moret__in > .MuiSvgIcon-root {
+  padding: 0px 7px;
+  color: #2874f0;
+  font-size: 17px;
+}
+.moret__in:hover,
+.logint__in:hover {
+  background-color: rgb(245, 243, 243);
+}
+.moret > hr,
+.logint > hr {
+  margin-left: -10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+  width: 108.5%;
+  height: 0.5px;
+  /* color: rgb(235, 235, 235); */
+  background-color: rgb(233, 233, 233);
+  border: none;
+  /* padding: 0; */
+}
+
+.logint__in > .MuiSvgIcon-root,
+.logint__in > img {
+  color: #2874f0;
+  padding: 0px 7px;
+  font-size: 17px;
+}
+.logint__i {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logint__i > p {
+  color: #2874f0;
+  font-weight: 600;
+  font-size: 14px;
+}
+.logint__i > h2 {
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+}
